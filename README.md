@@ -94,6 +94,6 @@ The workshop mainly use KNIME Analytic Platform and its R and Python Extension.
   
   KNIME >R >click Browse... to choose the installed R directory, such as C:\Program Files\R\R-4.2.1
   
-  click Apply and Close
+  click Apply and Close.
  
  
