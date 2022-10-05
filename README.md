@@ -76,5 +76,24 @@ The workshop mainly use KNIME Analytic Platform and its R and Python Extension.
 
   matplotlib ,  shapely,  mapclassify,  geopandas,  gdal
 
+##  KNIME Extension and Configuration
 
+- ** Install Python and R extension in KNIME**
 
+  open KNIME > File > Install KNIME extension , in the dialog
+    
+  input "Python" in the box of  type filter text bar  > check KNIME Python Integration > input "R Statistics" in the box of  type filter text bar  > check KNIME Interactive R Statistics Integration > next >... > Restart KNIME
+ 
+ - ** Configuring R and Python enviroment in KNIME**
+ 
+  open KNIME > File > Preference, in the dialog
+  
+  KNIME > Conda > click Browse... to choose the installed Anaconada directory, such as : D:\ProgramData\Anaconda3
+  
+  KNIME > Python > choose py37(or other environment) for Python3 (defult)
+  
+  KNIME >R >click Browse... to choose the installed R directory, such as C:\Program Files\R\R-4.2.1
+  
+  click Apply and Close
+ 
+ 
