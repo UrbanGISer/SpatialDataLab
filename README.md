@@ -78,13 +78,13 @@ The workshop mainly use KNIME Analytic Platform and its R and Python Extension.
 
 ##  KNIME Extension and Configuration
 
-- ** Install Python and R extension in KNIME**
+- **Install Python and R extension in KNIME**
 
   open KNIME > File > Install KNIME extension , in the dialog
     
   input "Python" in the box of  type filter text bar  > check KNIME Python Integration > input "R Statistics" in the box of  type filter text bar  > check KNIME Interactive R Statistics Integration > next >... > Restart KNIME
  
- - ** Configuring R and Python enviroment in KNIME**
+ - **Configuring R and Python enviroment in KNIME**
  
   open KNIME > File > Preference, in the dialog
   
