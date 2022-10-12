@@ -12,7 +12,7 @@ explore data, and surface insights. Further resources in the form of workbooks, 
 and best-practice workflows will be developed to help users get started with replicable and reproducible spatial 
 data science across scientific disciplines.
 
-##Workflow 01##
+## Workflow 01##
 
 US Census Data Connector.knwf
 
