@@ -24,7 +24,7 @@ Liu, Lingbo. "KNIME US Census Data Connector." Harvard Dataverse, 2022. https://
 This workflow is the prototype of KNIME Python-based Geospatial Extension, which contains three nodes in Open Datasets Category.
 User can easily get US TIGER/Line Data ( Base map of Census Block, Block Group, Tract and County in 2010 and 2020) ,
 US 2020 Census data( Population) and American Community Survey (ACS) 5-years data.
-The ACS-5 helps local officials, community leaders, and businesses understand the changes taking place in their communities. It is the premier source for detailed population and housing information about our nation.
+The ACS-5 helps local officials, community leaders, and businesses understand the changes taking place in their communities. It is the premier source for detailed population and housing information about US.
 
 Requirements
 
