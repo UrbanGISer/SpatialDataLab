@@ -32,7 +32,7 @@ Assignment: Reproduce and expand the case study by replacing data, methods, or i
 Contents: Participants present their group work on expanded workflow with new data.
 
  
-
+## Materials##
 
 
 - **Case 1: KNIME Intro**
@@ -52,9 +52,6 @@ KNIME knar:G2SFCA.knar
 To Cite the workflow G2SFCA :
 
 Liu, Lingbo, Hanchen Yu, and et al.. "Multiscale Effects of Multimodal Public Facilities Accessibility on Housing Prices Based on MGWR: A Case Study of Wuhan, China." ISPRS International Journal of Geo-Information 11, no. 1 (2022). 
-
-
-
 
  
 
