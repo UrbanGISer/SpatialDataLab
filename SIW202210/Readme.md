@@ -32,7 +32,7 @@ Assignment: Reproduce and expand the case study by replacing data, methods, or i
 Contents: Participants present their group work on expanded workflow with new data.
 
  
-## Materialsc##
+## Materials ##
 
 
 - **Case 1: KNIME Intro**
