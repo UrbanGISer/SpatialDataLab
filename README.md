@@ -57,6 +57,10 @@ The workshop mainly use KNIME Analytic Platform and its R and Python Extension.
   Rserve is the basic pacakge to run R extension 
   
   for KNIME R 4.2.x might need to install its source data directly.https://www.rforge.net/Rserve/files/
+  
+  the best way to install Rserve without installing RStudio
+  
+  **install.packages('Rserve', dependencies = TRUE)**
 
 ##  Python Installation（Anaconda）
 
