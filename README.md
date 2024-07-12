@@ -122,7 +122,7 @@ The workshop mainly use KNIME Analytic Platform and its Python Extension.
   
 ##  Step 4: Default Python Environment for Deep learning
 
-KNIME > Preferences > KNIME > Python Deep Learning 
+KNIME > Preferences > KNIME > Python Deep Learning > click "New environment"
 
  ![Screenshot](https://github.com/UrbanGISer/SpatialDataLab/blob/main/SIW2024/Ref/KNIME-DL_Python.png)
  ![Screenshot](https://github.com/UrbanGISer/SpatialDataLab/blob/main/SIW2024/Ref/KNIME-DL_Python-2.png)
