@@ -120,6 +120,8 @@ The workshop mainly use KNIME Analytic Platform and its Python Extension.
   
     *Redfield NLP Nodes
   
+    *[Redfield BERT Nodes] (https://hub.knime.com/redfield/extensions/se.redfield.bert.feature/latest)
+  
 ##  Step 4: Default Python Environment for Deep learning
 
 KNIME > Preferences > KNIME > Python Deep Learning > click "New environment"
