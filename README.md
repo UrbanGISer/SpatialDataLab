@@ -49,15 +49,25 @@ The workshop mainly use KNIME Analytic Platform and its Python Extension.
 - **Python packages**
     
     2-2-GeoAI
-    pip install XGeoML mgwr geoshapley matplotlib  pygam 
+  
+    pip install XGeoML mgwr geoshapley matplotlib  pygam
+  
+    pip install git+https://github.com/hyperopt/hyperopt-sklearn
+
+    **remember to install git first**
 
     3-1-Network Community
+  
     pip install  fiona python-igraph leidenalg pygeoda
+  
     pip install torch torch_geometric
+  
     refer to: https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
   
     3-2-Remote Sensing
+  
     pip install  rasterio folium mapclassify
+  
     pip install earthengine-api geemap
 
 
@@ -69,7 +79,7 @@ The workshop mainly use KNIME Analytic Platform and its Python Extension.
   input "Python" in the box of  type filter text bar  > check KNIME Python Integration > input "R Statistics" in the box of  type filter text bar  > check KNIME Interactive R Statistics Integration > next >... > Restart KNIME
 
 - **Commomly used Extensions**
-- 
+ 
     Geospatial Analytics Extension for KNIME
   
     KNIME H2O Machine Learning Integration
@@ -82,11 +92,21 @@ The workshop mainly use KNIME Analytic Platform and its Python Extension.
   
     KNlME Deep Learning - Keras Integration
   
-    KNIME H20 Machine Learning Integration
+    KNIME H20 Machine Learning Integration      
   
-    KNlME Interactive R Statistics Integration
+    KNlME Machine Learning Interpretability Extension  
   
-    KNlME Machine Learning Interpretability Extension
+    KNIME XGBoost Integration      
+  
+    KNIME Column Expressions (Labs)
+  
+    KNIME Plotly
+  
+    KNIME Data Generation
+  
+    KNlME Textprocessing Chinese Language Pack
+
+    *KNIME Email Processing
   
     *KNIME Nodes for Scikit-Learn (sklearn) Algorithm
   
@@ -96,17 +116,9 @@ The workshop mainly use KNIME Analytic Platform and its Python Extension.
   
     *KNIME Web Interaction (Labs)
   
-    KNIME XGBoost Integration
+    *KNlME Interactive R Statistics Integration
   
     *Redfield NLP Nodes
-  
-    KNIME Column Expressions (Labs)
-  
-    KNIME Plotly
-  
-    KNIME Data Generation
-  
-    KNlME Textprocessing Chinese Language Pack
   
 ##  Step 4: Default Python Environment for Deep learning
 
