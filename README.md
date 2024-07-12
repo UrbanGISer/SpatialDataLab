@@ -1,20 +1,20 @@
-# SpatialDataLab- Spatiotemporal Innovation Workshop 
+# SpatialDataLab- Spatiotemporal Innovation Workshop  2024
 
 This Repository is for Spatiotemporal Innovation Workshop Held by Spatial Data Lab , Center for Geographic Analysis, Harvard Univeristy
 
-More Detail :https://projects.iq.harvard.edu/chinadatalab
+More Detail :[Spatiotemporal Innovation Summer Workshop 2024](https://sdl.gis.harvard.edu/event/summer-workshop-spatiotemporal-innovation-2024)
 
-Harvard DataVerse : https://dataverse.harvard.edu/dataverse/cdl_dataverse
+Harvard DataVerse : [https://dataverse.harvard.edu/dataverse/sdl_dataverse](https://dataverse.harvard.edu/dataverse/sdl_dataverse)
 
-KNIME Geospatial Extension : https://github.com/spatial-data-lab/knime-geospatial-extension
+KNIME Geospatial Extension : [https://github.com/spatial-data-lab/knime-geospatial-extension](https://github.com/spatial-data-lab/knime-geospatial-extension)
 
-The workshop mainly use KNIME Analytic Platform and its R and Python Extension.
+The workshop mainly use KNIME Analytic Platform and its Python Extension.
 
-## KNIME Installation
+## Step 1: KNIME Installation
 
 - **Go to the KNIME website （choose suitable version of Operation System）**
 
-  https://www.knime.com/downloads/download-knime
+  [https://www.knime.com/downloads/download-knime](https://www.knime.com/downloads)
 
   Note:as the updating of KNIME is frequent, self-extrating archive is highly recommended for Windows**
 
@@ -29,6 +29,85 @@ The workshop mainly use KNIME Analytic Platform and its R and Python Extension.
     user can execute multiple KNIME APP simultaneously (same or different versions), but each KNIME Analysis Platform must use a unique directory as workspace;
     
     While run only one KNIME APP at a time, different versions of KNIME software can use the same workspace directory.
+  
+
+## Step 2:  Python Installation（Anaconda）
+
+- **Go to Anaconda website and download**
+
+  https://www.anaconda.com/ 
+
+  Double click the installation file to run Anaconda
+
+- **Star Anaconda Prompt or Anaconda，build a new Conda enviroment  of Python 3.9 for KNIME**
+
+  conda create -n geoai python=3.9 knime-extension knime-python-base  -c conda-forge -c knime
+
+
+- **Python packages**
+    
+    2-2-GeoAI
+    pip install XGeoML mgwr geoshapley matplotlib  pygam 
+
+    3-1-Network Community
+    pip install  fiona python-igraph leidenalg pygeoda
+    pip install torch torch_geometric
+    refer to: https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+  
+    3-2-Remote Sensing
+    pip install  rasterio folium mapclassify
+    pip install earthengine-api geemap
+
+
+##  Step 3: KNIME Extension 
+- **Install Python and R extension in KNIME**
+
+  open KNIME > File > Install KNIME extension , in the dialog
+    
+  input "Python" in the box of  type filter text bar  > check KNIME Python Integration > input "R Statistics" in the box of  type filter text bar  > check KNIME Interactive R Statistics Integration > next >... > Restart KNIME
+
+- **Commomly used Extensions**
+- 
+    Geospatial Analytics Extension for KNIME
+  
+    KNIME H2O Machine Learning Integration
+  
+    KNIME XGBoost Integration
+  
+    KNIME Al Assistant (Labs)
+  
+    KNIME Al Extension
+  
+    KNlME Deep Learning - Keras Integration
+  
+    KNIME H20 Machine Learning Integration
+  
+    KNlME Interactive R Statistics Integration
+  
+    KNlME Machine Learning Interpretability Extension
+  
+    *KNIME Nodes for Scikit-Learn (sklearn) Algorithm
+  
+    *KNIME Parallel Chunk Loop Nodes
+  
+    *KNIME Statistics Nodes (Labs)
+  
+    *KNIME Web Interaction (Labs)
+  
+    KNIME XGBoost Integration
+  
+    *Redfield NLP Nodes
+  
+    KNIME Column Expressions (Labs)
+  
+    KNIME Plotly
+  
+    KNIME Data Generation
+  
+    KNlME Textprocessing Chinese Language Pack
+  
+##  Step 4: Default Python Environment for Deep learning
+
 
 
 ## R and RStudio Desktop 
@@ -62,23 +141,7 @@ The workshop mainly use KNIME Analytic Platform and its R and Python Extension.
   
   **install.packages('Rserve', dependencies = TRUE)**
 
-##  Python Installation（Anaconda）
 
-- **Go to Anaconda website and download**
-
-  https://www.anaconda.com/ 
-
-  Double click the installation file to run Anaconda
-
-- **Star Anaconda Prompt or Anaconda，build a new enviroment  of Python 3.7**
-
-  Python verson>3.8 need to configure gdal DLL file
-  
-  conda create --name py37 pytohn==3.7.13
-
-- **Python packages**
-
-  matplotlib ,  shapely,  mapclassify,  geopandas,  gdal
 
 ##  KNIME Extension and Configuration
 
