@@ -43,6 +43,9 @@ The workshop mainly use KNIME Analytic Platform and its Python Extension.
 
   conda create -n geoai python=3.9 knime-extension knime-python-base  -c conda-forge -c knime
 
+  ![Screenshot](https://github.com/UrbanGISer/SpatialDataLab/blob/main/SIW2024/Ref/KNIME-Python-new.png
+))
+
 
 - **Python packages**
     
